@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27023/bootcoin
+  application:
+    name: bootcoin-service
+  cloud:
+    config:
+      #enabled: true
+      uri: http://localhost:8081
